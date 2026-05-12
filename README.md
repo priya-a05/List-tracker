@@ -22,8 +22,7 @@ This app helps you keep track of your daily tasks with a clean interface and bas
 1. Make sure Python is installed (Python 3 recommended)
 2. Clone this repository:
 bash
-git clone https://github.com/your-username/your-repo-name.git
-  
+get clone https://github.com/priya-a05/List-tracker.git  
 4. Navigate to the project folder:
 bash
 cd your-repo-name
