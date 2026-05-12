@@ -1,21 +1,25 @@
 import tkinter as tk
 root = tk.Tk()
+root.geometry("600x400")
 
-
-title_label = tk.Label(root, text="To-Do List App", font=("Arial", 16, "bold"), bg="#d29d8f")
+title_label = tk.Label(root, text="List tracker", font=("Arial", 16, "bold"), bg="#d29d8f")
 title_label.pack(pady=10)
 
 
 root.title("List tracker")
 # input box
-root.configure(bg="#F6F4F8")
+root.configure(bg="#DCCCF7")
 task_entry = tk.Entry(root, width=80)
 task_entry.pack()
 
+def add_task():
+    ...
+
+task_entry.bind("<Return>", lambda event: add_task())
+
 # function to add task
 def add_task():
-    if task_entry.get()=="":
-        return
+    if task_entry.get().strip() == "":        return
     task = task_entry.get()
     listbox.insert(tk.END, task)
     task_entry.delete(0, tk.END)
@@ -58,6 +62,11 @@ def set_priority():
 
     low_button = tk.Button(priority_window, text="Low", command=set_low)
     low_button.pack(pady=5)
+    
+# add priority button
+priority_button = tk.Button(root, text="Set Priority", command=set_priority)
+priority_button.pack(pady=5)
+priority_button.config(bg="#EDE7F6")
 
 
 #delete task function
@@ -68,8 +77,8 @@ def delete_task():
     listbox.delete(selected_task)
 
 #add delete botton
-delete_Button=tk.Button(root, text="Delete task",command=delete_task)
-delete_Button.pack(pady=5)
+delete_button=tk.Button(root, text="Delete task",command=delete_task)
+delete_button.pack(pady=5)
 
 def clear_all():
     listbox.delete(0,tk.END)
@@ -78,9 +87,9 @@ def clear_all():
 clear_button=tk.Button(root, text="Clear All", command=clear_all)
 clear_button.pack(pady=5)
 
-add_button.config(bg="#BE9DDF")
-delete_Button.config(bg="#BE9DDF")
-clear_button.config(bg="#BE9DDF")
+add_button.config(bg="#EDE7F6")
+delete_button.config(bg="#EDE7F6")
+clear_button.config(bg="#EDE7F6")
 
 root.mainloop()
 
