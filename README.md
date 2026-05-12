@@ -24,11 +24,9 @@ This app helps you keep track of your daily tasks with a clean interface and bas
 bash
 get clone https://github.com/priya-a05/List-tracker.git  
 4. Navigate to the project folder:
-bash
-get clone cd List-tracker
+5. cd List-tracker
 6. Run the file:
-bash
-get clone python main.py
+ python main.py
    
 ## 📌 How It Works
 * Enter a task in the input field
