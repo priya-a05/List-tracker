@@ -25,10 +25,8 @@ bash
 get clone https://github.com/priya-a05/List-tracker.git  
 4. Navigate to the project folder:
 bash
-cd your-repo-name
-
+cd List-tracker
 6. Run the file:
-
 bash
    python GUI.py
    
