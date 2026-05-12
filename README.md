@@ -13,11 +13,11 @@ This app helps you keep track of your daily tasks with a clean interface and bas
   * 🟢 Low (Green)
 * 🖥️ Simple and minimal GUI
 
-## 🛠️ Tech Used
+## Tech Used
 * Python
 * Tkinter (built-in GUI library)
 
-## 📂 How to Run
+## How to Run
 
 1. Make sure Python is installed (Python 3 recommended)
 2. Clone this repository:
@@ -41,7 +41,7 @@ get clone https://github.com/priya-a05/List-tracker.git
 * No edit/update feature for tasks
 * Basic UI (can be improved with styling)
   
-## 💡 Future Improvements
+## Future Improvements
 * Save tasks using file or database
 * Add edit/update functionality
 * Add deadlines or reminders
@@ -51,5 +51,5 @@ get clone https://github.com/priya-a05/List-tracker.git
 ## 🤝 Contributing
 Feel free to fork this project and improve it. Suggestions and improvements are always welcome.
 
-## 📜 License
+## License
 This project is open-source and free to use.
