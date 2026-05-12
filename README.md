@@ -28,7 +28,7 @@ bash
 cd List-tracker
 6. Run the file:
 bash
-   python GUI.py
+   python main.py
    
 ## 📌 How It Works
 * Enter a task in the input field
